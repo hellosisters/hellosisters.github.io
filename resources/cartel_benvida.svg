@@ -29,17 +29,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="563.06659"
-     inkscape:cy="575.81807"
+     inkscape:zoom="0.5"
+     inkscape:cx="342.02606"
+     inkscape:cy="590.92806"
      inkscape:document-units="px"
-     inkscape:current-layer="g4427-36"
+     inkscape:current-layer="layer1"
      showgrid="false"
      showguides="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1136"
-     inkscape:window-x="1920"
-     inkscape:window-y="27"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="34"
      inkscape:window-maximized="1"
      inkscape:guide-bbox="true" />
   <metadata
@@ -599,41 +599,7 @@
            y="806.98346"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:UnDinaru;-inkscape-font-specification:'UnDinaru, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start" /></flowRegion><flowPara
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1.25;font-family:UnDinaru;-inkscape-font-specification:'UnDinaru, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
-         id="flowPara1288">Qué pouquiñas somos, e nin nos coñecemos entre nós...</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot6972-5-5-2-6"
-       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(791.91979,-496.33586)"
-       inkscape:export-filename="/home/noe/Plantillas/Hello_Sisters/media/cartel2.png"
-       inkscape:export-xdpi="299.99426"
-       inkscape:export-ydpi="299.99426"><flowRegion
-         id="flowRegion6974-7-5-6-3"><rect
-           id="rect6976-8-8-1-9"
-           width="459.34174"
-           height="97.139061"
-           x="58.360352"
-           y="806.98346" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:UnDinaru;-inkscape-font-specification:UnDinaru;fill:#ffffff;fill-opacity:1"
-         id="flowPara10852-6-8">Que fago aquí?</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:UnDinaru;-inkscape-font-specification:UnDinaru;fill:#ffffff;fill-opacity:1"
-         id="flowPara1256">Se cadra metínme onde non debía...</flowPara></flowRoot>    <flowRoot
-       xml:space="preserve"
-       id="flowRoot6972-5-5-6-1-1"
-       style="font-style:normal;font-weight:normal;line-height:0.01%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       transform="translate(-593.68521,-267.8917)"
-       inkscape:export-filename="/home/noe/Plantillas/Hello_Sisters/media/cartel2.png"
-       inkscape:export-xdpi="299.99426"
-       inkscape:export-ydpi="299.99426"><flowRegion
-         id="flowRegion6974-7-5-1-5-2"><rect
-           id="rect6976-8-8-5-9-9"
-           width="459.34174"
-           height="97.139061"
-           x="58.360352"
-           y="806.98346" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:UnDinaru;-inkscape-font-specification:UnDinaru;fill:#ffffff;fill-opacity:1"
-         id="flowPara10852-3-4-39">Qué pouquiñas somos...</flowPara><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;line-height:1.25;font-family:UnDinaru;-inkscape-font-specification:UnDinaru;fill:#ffffff;fill-opacity:1"
-         id="flowPara1252">e nin nos coñecemos entre nós...</flowPara></flowRoot>    <flowRoot
+         id="flowPara1288">Que pouquiñas somos, e nin nos coñecemos entre nós...</flowPara></flowRoot>    <flowRoot
        transform="translate(1629.4411,-1.8690777)"
        xml:space="preserve"
        id="flowRoot5276"
@@ -669,9 +635,11 @@
            height="295.57065"
            x="1330.7749"
            y="241.46463" /></flowRegion><flowPara
-         id="flowPara1264"></flowPara></flowRoot>    <g
+         id="flowPara1264" /></flowRoot>    <g
        id="g5123"
-       transform="translate(1.3258252,165.72815)">
+       transform="translate(1.3258252,165.72815)"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299">
       <flowRoot
          inkscape:export-ydpi="299.99426"
          inkscape:export-xdpi="299.99426"
@@ -689,10 +657,12 @@
              width="141.06049"
              id="rect6976-8-7-6-2" /></flowRegion><flowPara
            id="flowPara1288-4"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1.25;font-family:UnDinaru;-inkscape-font-specification:'UnDinaru, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1">Que fago aquí? Se cadra metínme onde non debía!</flowPara></flowRoot>    </g>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:1.25;font-family:UnDinaru;-inkscape-font-specification:'UnDinaru, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1">Que fago aquí? Se cadra metinme onde non debía!</flowPara></flowRoot>    </g>
     <g
        id="g5117"
-       transform="translate(1.3258252,165.72815)">
+       transform="translate(1.3258252,165.72815)"
+       inkscape:export-xdpi="299"
+       inkscape:export-ydpi="299">
       <rect
          style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#272727;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.73272061;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.23046875;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          id="rect10561-5-2"
@@ -742,5 +712,5 @@
            height="294.33777"
            x="431.48795"
            y="372.80515" /></flowRegion><flowPara
-         id="flowPara5107"></flowPara></flowRoot>  </g>
+         id="flowPara5107" /></flowRoot>  </g>
 </svg>
