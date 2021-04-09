@@ -337,7 +337,7 @@
                     <div class="col-xs-6 col-sm-3">
                         <div class="text-center">
                              <span class="counter-number" data-100p-top="transform[swing]:rotate(-90deg)" data-65p-top="transform[swing]:rotate(0deg)">
-                                <span class="days">12</span>
+                                <span id="timer-days" class="days">12</span>
                             </span>
                             <span class="countdown-label bracket">DÍAS</span>
                         </div>
@@ -345,7 +345,7 @@
                     <div class="col-xs-6 col-sm-3">
                         <div class="text-center">
                              <span class="counter-number" data-100p-top="transform[swing]:rotate(-90deg)" data-70p-top="transform[swing]:rotate(0deg)">
-                                <span class="hours">3</span>
+                                <span id="timer-hours" class="hours">3</span>
                             </span>
                             <span class="countdown-label bracket">HORAS</span>
                         </div>
@@ -353,7 +353,7 @@
                     <div class="col-xs-6 col-sm-3">
                         <div class="text-center">
                             <span class="counter-number" data-100p-top="transform[swing]:rotate(-90deg)" data-75p-top="transform[swing]:rotate(0deg)">
-                                <span class="mins">27</span>
+                                <span id="timer-minutes" class="mins">27</span>
                             </span>
                             <span class="countdown-label bracket">MINUTOS</span>
                         </div>
@@ -361,7 +361,7 @@
                     <div class="col-xs-6 col-sm-3">
                         <div class="text-center">
                             <span class="counter-number" data-100p-top="transform[swing]:rotate(-90deg)" data-80p-top="transform[swing]:rotate(0deg)">
-                                <span class="secs">38</span>
+                                <span id="timer-seconds" class="secs">38</span>
                             </span>
                             <span class="countdown-label bracket">SEGUNDOS</span>
                         </div>
@@ -705,6 +705,43 @@
 
     <!-- Main page javascript -->
     <script type="text/javascript" src="js/main.min.js"></script>
+
+    <!-- Countdown Timer -->
+    <script>
+        // Set the date we're counting down to here
+        var countDownDate = new Date("Sep 5, 2021 17:30:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+        
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+        
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+          // Display the result in the element
+          document.getElementById("timer-days").innerHTML = days;
+          document.getElementById("timer-hours").innerHTML = hours;
+          document.getElementById("timer-minutes").innerHTML = minutes;
+          document.getElementById("timer-seconds").innerHTML = seconds;
+                
+          // If the count down is finished, write some text
+          if (distance < 0) {
+            clearInterval(x);            
+            document.getElementById("timer-days").innerHTML = "-";
+            document.getElementById("timer-hours").innerHTML = "-";
+            document.getElementById("timer-minutes").innerHTML = "-";
+            document.getElementById("timer-seconds").innerHTML = "-";
+          }
+        }, 1000);
+    </script>
 
 </body>
 </html>
