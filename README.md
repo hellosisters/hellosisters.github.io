@@ -40,7 +40,7 @@ Para crear unha nova entrada no blog, será necesario que fagas o seguinte:
 
 1. Seguir os pasos explicados arriba para crear unha nova rama, etc.
 2. Crear unha nova entrada do blog a partir do [modelo dun blog-item](https://github.com/hellosisters/hellosisters.github.io/blob/main/blog-items/blog-item.html). Aí poderás completar toda a información referente á túa temática.
-3. Recorda completar a última parte na que hai un oco para poñer información sobre ti mesma! Para isto pódese reutilizar o teu avatar que debería estar gardado en [/img](https://github.com/hellosisters/hellosisters.github.io/tree/main/img). De non ser así, este é un bo momento para facer un e engadirte como membra de HelloSisters!
+3. Recorda completar a última parte na que hai un oco para poñer información sobre ti mesma! Para isto pódese reutilizar o teu avatar que debería estar gardado en [/img/sisters](https://github.com/hellosisters/hellosisters.github.io/tree/main/img/sisters). De non ser así, este é un bo momento para facer un e engadirte como membra de HelloSisters!
 4. O seguinte paso sería engadir o teu post na [blog-list](https://github.com/hellosisters/hellosisters.github.io/blob/main/blog-items/blog-list.html).
 5. Por último, só quedaría actualizar o contador para o seguinte evento. Para isto, hai que actualizar a data do ficheiro [index.html](https://github.com/hellosisters/hellosisters.github.io/blob/main/index.html) seguindo este formato "Sep 5, 2021 17:30:00".
 6. Lista!
