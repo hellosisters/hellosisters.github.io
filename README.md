@@ -30,9 +30,9 @@ Os pasos que seguimos cando queremos modificar algo do repositorio son os seguin
     + ```git commit --allow-empty -m "Root commit"```
     + ```git push origin feature/nomeDaRama```
 
-4. Ó subir a rama, é moi recomendable relacionala co _issue_ ([guía para enlazar _issue_ con PR](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests)).
+4. Unha vez subida a rama, crea unha PR (Pull Request) a partir desa rama e márcaa como _draft_ (para indicarnos ás demáis que aínda estás a traballar nela) - [guía para crear unha PR](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
-5. Despois disto, crea unha PR (Pull Request) a partir desa rama e márcaa como _draft_ (para indicarnos ás demáis que aínda estás a traballar nela) - [guía para crear unha PR](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+5. Despois disto, é moi recomendable relacionar a PR co _issue_ ([guía para enlazar _issue_ con PR](https://docs.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#about-linked-issues-and-pull-requests)).
 
 6. A traballar na tarefa!
 
