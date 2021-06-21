@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "css-replacer",
+  "version": "1.0.0",
+  "description": "Admin panel for css-replacer",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-less": "^1.4.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

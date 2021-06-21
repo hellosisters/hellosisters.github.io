@@ -1,0 +1,387 @@
+/*!
+ * General LESS variables for GameR
+ *
+ Jakub Kwarciński - http://jakubkwarcinski.pl/
+ *
+ * you can edit this file for specific goals or create new and import it in less/bootstrap.less file
+ */
+
+//== Colors
+//
+//## Global colors for GameR
+@gray-darker:                               #1B1B1B;
+@gray-dark:                                 #292929;
+@gray-lighter:                              #AAAAAA;
+
+@yellow:                                    #FFD500;
+@orange:                                    #FFAA00;
+@pink:                                      #ce4e79;
+@red:                                       #C54846;
+@green:                                     #8EC63F;
+@blue:                                      #2F85D7;
+
+//** Brand's colors
+@brand-primary:                             @main-color;
+@brand-success:                             @green;
+@brand-info:                                @blue;
+@brand-warning:                             @orange;
+@brand-danger:                              @red;
+
+//** Main color for elements and components
+@main-color:                               @yellow;
+
+//** Background's urls
+@background-edge-url:                       "../img/home-bg-yellow.png";
+@background-edge-small-url:                 "../img/single-page-header-bg-yellow.png";
+@background-pixel-url:                      "../img/bg-yellow.jpg";
+@background-section-home:                   "../img/image-1.jpg";
+@background-section-flow:                   "../img/image-3.jpg";
+@background-section-send-us-message:        "../img/image-8.jpg";
+
+
+//== Overlays
+//
+@overlay-opacity-soft:                      0.15;
+@overlay-opacity-base:                      0.4;
+@overlay-opacity-hard:                      0.55;
+@overlay-opacity-solid:                     0.9;
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles
+
+//** Background color for `<body>`
+@body-bg:                                   @gray-darker;
+//** Global text color on `<body>`
+@text-color:                                #fff;
+@text-color-inverse:                        @gray-darker;
+
+//** Global textual link color
+@link-color:                                @main-color;
+//** Link hover color set via `darken()` function
+@link-hover-color:                          darken(@link-color, 15%);
+//** Link hover decoration
+@link-hover-decoration:                     none;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more
+@font-family-sans-serif:                    'Lato', 'Arial', 'Helvetica', sans-serif;
+@font-family-stylish:                       'Press Start 2P', 'Courier New', cursive;;
+
+@headings-font-family:                      @font-family-sans-serif;
+
+//** Fonts sizes
+@font-size-base:                            16px;
+@font-size-huge:                            ceil((@font-size-base * 4)); // ~64px
+@font-size-large:                           ceil((@font-size-base * 1.25)); // ~20px
+@font-size-very-large:                      ceil((@font-size-base * 2.25)); // ~36px
+@font-size-small:                           ceil((@font-size-base * 0.875)); // ~14px
+@font-size-very-small:                      ceil((@font-size-base * 0.75)); // ~12px
+
+@font-size-h1:                              floor((@font-size-base * 2)); // ~32px
+@font-size-h2:                              floor((@font-size-base * 1.75)); // ~28px
+@font-size-h3:                              ceil((@font-size-base * 1.5)); // ~24px
+@font-size-h4:                              ceil((@font-size-base * 1.125)); // ~18px
+@font-size-h5:                              @font-size-base;
+@font-size-h6:                              ceil((@font-size-base * 0.875)); // ~12px
+
+@font-weight-base:                          300;
+
+
+//== Components
+//
+//## Define common padding and border radius sizes and more
+
+//** Common paddings
+@padding-large-vertical:                    8px;
+@padding-large-horizontal:                  24px;
+
+//** Paddings for sections
+@padding-sections-vertical:                 80px;
+@padding-sections-element:                  40px;
+
+
+//== Tables
+//
+//## Customizes the `.table` component with basic values, each used across all table variations.
+@table-bg-accent:               @gray-dark;
+@table-bg-hover:                @gray;
+@table-bg-active:               @gray-darker;
+
+
+//== Buttons
+//
+//## For each of GameR's buttons, define text, background and border color
+@btn-default-color:                         @gray-darker;
+@btn-default-bg:                            #FFF;
+@btn-default-border:                        #FFF;
+
+@btn-primary-color:                         @gray-darker;
+@btn-primary-bg:                            @main-color;
+@btn-primary-border:                        @main-color;
+
+@btn-success-color:                         @gray-darker;
+@btn-info-color:                            @gray-darker;
+@btn-warning-color:                         @gray-darker;
+@btn-danger-color:                          @gray-darker;
+
+// Allows for customizing button radius independently from global border radius
+@btn-border-radius-base:                    0;
+@btn-border-radius-large:                   0;
+@btn-border-radius-small:                   0;
+
+
+//== Progress bars
+//
+//##
+
+//** Variable for setting rounded corners on progress bar.
+@progress-border-radius:                    ceil(@line-height-computed / 2);
+
+
+//== Panels
+//
+//##
+@panel-bg:                                  @gray-dark;
+
+@panel-primary-text:                        @gray-dark;
+@panel-primary-border:                      @gray-dark;
+@panel-success-border:                      @gray-dark;
+@panel-info-border:                         @gray-dark;
+@panel-warning-border:                      @gray-dark;
+@panel-danger-border:                       @gray-dark;
+
+
+//== Thumbnails
+//
+//##
+
+//** Padding around the thumbnail image
+@thumbnail-padding:           4px;
+//** Thumbnail background color
+@thumbnail-bg:                @gray-darker;
+//** Thumbnail border color
+@thumbnail-border:            @gray-light;
+//** Thumbnail border radius
+@thumbnail-border-radius:     0;
+//** Padding around the thumbnail caption
+@thumbnail-caption-padding:   10px;
+
+//== Labels
+//
+//##
+
+//** Default label text color
+@label-color:                 @text-color-inverse;
+//** Default text color of a linked label
+@label-link-hover-color:      @text-color-inverse;
+
+
+//== Modals
+//
+//##
+
+//** Padding applied to the modal body
+@modal-inner-padding:         15px;
+
+//** Padding applied to the modal title
+@modal-title-padding:         15px;
+
+//** Background color of modal content area
+@modal-content-bg:                             @gray-darker;
+//** Modal content border color
+@modal-content-border-color:                   @gray-dark;
+//** Modal content border color **for IE8**
+@modal-content-fallback-border-color:          @gray-dark;
+
+//** Modal header border color
+@modal-header-border-color:   @main-color;
+//** Modal footer border color
+@modal-footer-border-color:   @main-color;
+
+
+//== Alerts
+//
+//## Define alert colors, border radius, and padding.
+
+@alert-border-radius:         0;
+
+
+//== Forms
+//
+//##
+
+//** `<input>` background color
+@input-bg:                                  rgba(255, 255, 255, 0.25);
+//** `<input disabled>` background color
+@input-bg-disabled:                         rgba(255, 255, 255, 0.5);
+
+//** Text color for `<input>`s
+@input-color:                               #FFF;
+//** `<input>` border color
+@input-border:                              @gray-light;
+
+//** `.form-group` margin
+@form-group-margin-bottom:                  30px;
+
+//** Default `.form-control` border radius
+// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
+@input-border-radius:                       0;
+//** Large `.form-control` border radius
+@input-border-radius-large:                 0;
+//** Small `.form-control` border radius
+@input-border-radius-small:                 0;
+
+//** Border color for inputs on focus
+@input-border-focus:                        @main-color;
+
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents
+
+//** Background for the inverse dropdown menu
+@dropdown-inverse-bg:                       @gray-darker;
+
+//** Inverse dropdown link text color
+@dropdown-inverse-link-color:               #fff;
+//** Hover color for inverse dropdown links
+@dropdown-inverse-link-hover-color:         @gray-darker;
+//** Hover background for inverse dropdown links
+@dropdown-inverse-link-hover-bg:            @main-color;
+
+//** Active inverse dropdown menu item text color
+@dropdown-inverse-link-active-color:        @gray-darker;
+//** Active inverse dropdown menu item background color
+@dropdown-inverse-link-active-bg:           @main-color;
+
+
+//== Navbar
+//
+//##
+
+// Basics of a navbar
+@navbar-height:                             70px;
+@navbar-border-radius:                      0;
+
+@navbar-default-color:                      @gray-darker;
+@navbar-default-bg:                         #fff;
+@navbar-default-border:                     @main-color;
+
+@navbar-inverse-color:                      #fff;
+@navbar-inverse-bg:                         @gray-darker;
+@navbar-inverse-border:                     @main-color;
+
+// Navbar links
+@navbar-inverse-link-color:                 #FFF;
+@navbar-inverse-link-hover-color:           @gray-darker;
+@navbar-inverse-link-hover-bg:              @main-color;
+@navbar-inverse-link-active-color:          @gray-darker;
+@navbar-inverse-link-active-bg:             @main-color;
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg:           @main-color;
+@navbar-default-toggle-icon-bar-bg:        @main-color;
+@navbar-default-toggle-border-color:       @main-color;
+
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+
+//** Background for the dropdown menu.
+@dropdown-bg:                               @gray-darker;
+//** Divider color for between dropdown items.
+@dropdown-divider-bg:                       @gray-light;
+
+//** Dropdown link text color.
+@dropdown-link-color:            #fff;
+//** Hover color for dropdown links.
+@dropdown-link-hover-color:                 @gray-darker;
+//** Hover background for dropdown links.
+@dropdown-link-hover-bg:                    @main-color;
+
+//** Active dropdown menu item text color.
+@dropdown-link-active-color:                @gray-darker;
+//** Active dropdown menu item background color.
+@dropdown-link-active-bg:                   @main-color;
+
+
+//== Pagination
+//
+//##
+@pagination-color:              #fff;
+@pagination-bg:                 transparent;
+@pagination-border:             transparent;
+
+@pagination-hover-color:        @main-color;
+@pagination-hover-bg:           transparent;
+@pagination-hover-border:       transparent;
+
+@pagination-active-color:       #fff;
+@pagination-active-bg:          transparent;
+@pagination-active-border:      @main-color;
+
+@pagination-disabled-color:     @gray-light;
+@pagination-disabled-bg:        @gray-lighter;
+@pagination-disabled-border:    transparent;
+
+
+//== Form states and alerts
+//
+//## Define colors for form feedback states and, by default, alerts.
+
+@state-success-text:             @gray-dark;
+@state-success-bg:               @brand-success;
+@state-success-border:           darken(@brand-success, 10%);
+
+@state-info-text:                @gray-dark;
+@state-info-bg:                  @brand-info;
+@state-info-border:              darken(@brand-info, 10%);
+
+@state-warning-text:             @gray-dark;
+@state-warning-bg:               @brand-warning;
+@state-warning-border:           darken(@brand-warning, 10%);
+
+@state-danger-text:              @gray-dark;
+@state-danger-bg:                @brand-danger;
+@state-danger-border:            darken(@brand-danger, 10%);
+
+
+//== Media queries breakpoints
+//
+//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+
+// Very small screen
+@screen-xxs:                                360px;
+
+
+//== Carousel
+//
+//##
+@carousel-indicator-active-bg:              @main-color;
+
+
+//== Transitions
+//
+//##
+@transition-base:                           all 0.25s ease;
+@transition-slow:                           all 0.5s ease;
+@transition-fast:                           all 0.15s ease;
+
+
+//== Code
+//
+//##
+@code-color:                  #FFF;
+@code-bg:                     @gray;
+
+@kbd-color:                   #FFF;
+@kbd-bg:                      @gray;
+
+@pre-bg:                      @gray;
+@pre-color:                   #FFF;
+@pre-border-color:            @gray-light;

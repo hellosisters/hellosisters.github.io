@@ -1,0 +1,21 @@
+/*!
+ * LESS mixins for GameR
+ *
+ Jakub Kwarciński - http://jakubkwarcinski.pl/
+ *
+ * you can edit this file for specific goals
+ */
+
+// Vendor Prefixes
+.scaleYAndRotate(@ratio; @degrees) {
+  -webkit-transform: scaleY(@ratio) rotate(@degrees);
+      -ms-transform: scaleY(@ratio) rotate(@degrees); // IE9 only
+       -o-transform: scaleY(@ratio) rotate(@degrees);
+          transform: scaleY(@ratio) rotate(@degrees);
+}
+.rotateScaleYTranslateY(@degrees; @ratio; @y) {
+  -webkit-transform: rotate(@degrees) scaleY(@ratio) translateY(@y);
+      -ms-transform: rotate(@degrees) scaleY(@ratio) translateY(@y); // IE9 only
+       -o-transform: rotate(@degrees) scaleY(@ratio) translateY(@y);
+          transform: rotate(@degrees) scaleY(@ratio) translateY(@y);
+}
